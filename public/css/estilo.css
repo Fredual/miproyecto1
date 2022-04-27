@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*Div General*/
+.wrapper{
+    width: 100vw;
+    height: 100vw;
+    background-color: #403d3d;
+    color:#fff;
+}
+/*Div Menu*/
+.brand {
+    margin-top: -7px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+/*Lista*/
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+
+}
+
+.brand span{
+    color:red;
+}
+
+.menu a{
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu .active{
+    color: red;
+}
+
+.menu a:hover{
+    background-color:  #ff6060;
+    color: #403d3d;
+    transition: ease-in .5s;
+
+}
+
+.main {
+    margin: 0 auto;
+    width: 60vw;
+    height: 60vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+span {
+    color: red;
+}
