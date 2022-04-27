@@ -55,7 +55,7 @@
             <!-- Heading -->
             <div class="sidebar-heading">
                 Interface
-                Interfacess
+                Int
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
